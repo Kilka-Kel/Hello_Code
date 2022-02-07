@@ -1,13 +1,13 @@
 ﻿Console.Clear();
-int namderA = 1;
-int namderB = 1;
+double namderA = 1;
+double namderB = 1;
 string s;
-Console.Write("Введите число А ");
+Console.Write("Введите число А (через ,)");
 s=Console.ReadLine();
-namderA = Convert.ToInt32(s);
-Console.Write("Введите число B ");
+namderA = Convert.ToDouble(s);
+Console.Write("Введите число B (через ,)");
 s=Console.ReadLine();
-namderB = Convert.ToInt32(s);
+namderB = Convert.ToDouble(s);
 Console.Write("A + B =");
 Console.WriteLine(namderA + namderB);
 
