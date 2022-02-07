@@ -2,6 +2,7 @@
 string username = Console.ReadLine();
 if (username.ToLower() == "килька")
 {
+   Console.ForegroundColor=ConsoleColor.DarkGreen;
    Console.Write("Привет Килька, держи сердешко");
 }
 else
